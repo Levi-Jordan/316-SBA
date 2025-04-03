@@ -12,3 +12,25 @@
 // Use at least two BOM properties or methods
 // Include at least one form or input with HTML validation
 // Inclide at least one form or input with DOM event-based validation
+
+let yourIcon = document.getElementById(`avatar`)
+console.log(yourIcon)
+
+
+yourIcon.addEventListener 
+
+document.getElementById(`theForm`).style.backgroundColor = `red`;
+
+screen.availHeight
+screen.availWidth
+
+let yourName = ""
+yourName = InputEvent
+
+yourName.addEventListener (onsubmit, greeting)
+
+function greeting () {
+    alert (Hello, yourName)
+}
+
+
