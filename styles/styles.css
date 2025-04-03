@@ -1,1 +1,9 @@
-body {background-color: rgba(64, 114, 31, 0.534);}
+body {background-color: rgba(118, 98, 189, 0.534);}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
