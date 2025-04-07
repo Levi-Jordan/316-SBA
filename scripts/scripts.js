@@ -16,16 +16,16 @@
 let nameInput = document.getElementById(`yourName`);
 let importantInput = document.getElementById("important");
 
-document.getElementById(`theForm`).style.backgroundColor = `red`;
+// document.getElementById(`theForm`).style.backgroundColor = ``;
 
 function greeting(event) {
-    alert (Hello, yourName)
+    alert ("Hello, " + nameInput.value)
 }
 
 function formHandler(event) {
     event.preventDefault();
     let formColor = document.getElementById(`color`);
-    document.getElementById(`theForm`).style.backgroundColor = formColor.value 
+    document.getElementById(`theForm`).style.backgroundColor = formColor.value;
 }
 
 
