@@ -13,24 +13,19 @@
 // Include at least one form or input with HTML validation
 // Inclide at least one form or input with DOM event-based validation
 
-let yourIcon = document.getElementById(`avatar`)
-console.log(yourIcon)
-
-
-yourIcon.addEventListener 
+let nameInput = document.getElementById(`yourName`);
+let importantInput = document.getElementById("important");
 
 document.getElementById(`theForm`).style.backgroundColor = `red`;
 
-screen.availHeight
-screen.availWidth
-
-let yourName = ""
-yourName = InputEvent
-
-yourName.addEventListener (onsubmit, greeting)
-
-function greeting () {
+function greeting(event) {
     alert (Hello, yourName)
+}
+
+function formHandler(event) {
+    event.preventDefault();
+    let formColor = document.getElementById(`color`);
+    document.getElementById(`theForm`).style.backgroundColor = formColor.value 
 }
 
 
