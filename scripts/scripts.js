@@ -15,6 +15,7 @@
 
 let nameInput = document.getElementById(`yourName`);
 let importantInput = document.getElementById("important");
+let newButton = document.createElement(`button`)
 
 // document.getElementById(`theForm`).style.backgroundColor = ``;
 
@@ -28,4 +29,5 @@ function formHandler(event) {
     document.getElementById(`theForm`).style.backgroundColor = formColor.value;
 }
 
-
+let form = document.querySelector(`form`)
+form.appendChild(newButton)
